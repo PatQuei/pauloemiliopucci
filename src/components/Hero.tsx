@@ -1,5 +1,5 @@
 import { ArrowDown } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/Capa.png";
 
 const Hero = () => {
   const scrollToNext = () => {
@@ -35,13 +35,21 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <button
-              onClick={() => document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() =>
+                document
+                  .getElementById("portfolio")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="px-8 py-4 bg-accent hover:bg-accent/90 text-foreground font-inter font-medium rounded-md transition-all duration-300 hover:scale-105"
             >
               Ver Portfólio
             </button>
             <button
-              onClick={() => document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() =>
+                document
+                  .getElementById("contato")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="px-8 py-4 border-2 border-white/30 hover:border-white/50 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-inter font-medium rounded-md transition-all duration-300"
             >
               Entre em Contato

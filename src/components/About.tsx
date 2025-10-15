@@ -1,4 +1,4 @@
-import aboutPhoto from "@/assets/about-photo.jpg";
+import aboutPhoto from "@/assets/Perfil.png";
 
 const About = () => {
   return (
@@ -24,25 +24,27 @@ const About = () => {
                 Sobre mim
               </p>
               <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground">
-                Transformo palavras e imagens em experiências
+                Travessias
               </h2>
             </div>
 
             <div className="space-y-4 font-inter text-muted-foreground leading-relaxed">
+              <p>Olá! Meu nome é Paulo Emilio Pucci I PEP. </p>
               <p>
-                Com mais de uma década trabalhando com narrativas, desenvolvi uma visão única que une{" "}
-                <span className="text-foreground font-medium">copywriting estratégico</span>,{" "}
-                <span className="text-foreground font-medium">storytelling envolvente</span> e{" "}
-                <span className="text-foreground font-medium">produção audiovisual</span> de alto impacto.
+                Sou formado em Produção Audiovisual com pós-graduação em Gestão
+                de Projetos Culturais e Licenciatura em Artes Visuais. Trabalho
+                há 20 anos com projetos socioculturais. Vivenciei grandes
+                experiências em diversas instituições, Canal Futura, Cidade
+                Escola Aprendiz, CENPEC, SESC , entre outras do terceiro setor,
+                além da realização de produções próprias, algumas contempladas
+                em leis de incentivo.
               </p>
               <p>
-                Minha filosofia é simples: cada projeto é uma oportunidade de contar uma história que ressoa,
-                inspira e transforma. Trabalho com marcas e criadores que buscam mais do que resultados —
-                buscam conexão genuína com seu público.
-              </p>
-              <p>
-                Do conceito à execução, combino técnica refinada com sensibilidade artística para criar
-                trabalhos que são tão funcionais quanto emocionantes.
+                Trabalhei no setor público, Cinemateca Brasileira e na FUNDARPE
+                (Fundação do Patrimônio Histórico e Artístico de Pernambuco).
+                Minhas áreas de atuação: roteiro audiovisual, redação
+                publicitária, produção cultural, direção, fotografia,
+                comunicação social, coordenação e gestão de projetos.
               </p>
             </div>
 

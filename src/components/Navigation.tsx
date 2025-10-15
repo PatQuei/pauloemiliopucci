@@ -36,7 +36,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="font-playfair text-2xl font-bold tracking-tight hover:text-accent transition-colors"
           >
-            Paulo Pucci
+            Paulo Emilio Pucci
           </button>
 
           {/* Desktop Menu */}

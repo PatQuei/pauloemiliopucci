@@ -8,7 +8,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <p className="font-playfair text-2xl font-bold mb-2">Paulo Emílio Pucci</p>
+            <p className="font-playfair text-2xl font-bold mb-2">
+              Paulo Emílio Pucci
+            </p>
             <p className="font-inter text-sm text-background/70">
               Copywriting, Storytelling & Audiovisual
             </p>
