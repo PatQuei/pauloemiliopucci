@@ -1,6 +1,18 @@
 import { useState } from "react";
 import { FileText, Video, Camera, ExternalLink } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import project1 from "@/assets/projeto1.jpg";
+import project2 from "@/assets/projeto2.jpg";
+import project3 from "@/assets/projeto3.jpg";
+import project4 from "@/assets/projeto4.jpg";
+import project5 from "@/assets/projeto5.jpg";
+import project6 from "@/assets/projeto6.jpg";
+import project7 from "@/assets/projeto7.jpg";
+import project8 from "@/assets/projeto8.jpg";
+import project9 from "@/assets/projeto9.jpg";
+import project10 from "@/assets/projeto10.jpg";
+import project11 from "@/assets/projeto11.jpg";
+import project12 from "@/assets/projeto12.jpg";
 
 type Category = "all" | "copy" | "video" | "photo";
 
@@ -16,45 +28,93 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Campanha de Lançamento - Tech Brand",
+    title: "Projeto 1",
     category: "copy",
-    description: "Copy estratégico e storytelling para lançamento de produto inovador no mercado tech.",
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+    description: "Falta mensagem",
+    image: project1,
   },
   {
     id: 2,
-    title: "Documentário Corporativo",
+    title: "projeto 2",
     category: "video",
-    description: "Direção e produção de documentário sobre cultura organizacional e impacto social.",
-    image: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&q=80",
+    description:
+      "O melhor encontro mais próximo de você. Aproveite o melhor a sensação da sua conexão.",
+    image: project2,
   },
   {
     id: 3,
-    title: "Ensaio Editorial Fashion",
+    title: "Projeto 3",
     category: "photo",
-    description: "Fotografia editorial para marca de moda sustentável, com narrativa visual forte.",
-    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
+    description:
+      "Desfrute a tecnologia do futuro com o melhor presente para você.",
+    image: project3,
   },
   {
     id: 4,
-    title: "Manifesto de Marca",
+    title: "Projeto 4",
     category: "copy",
-    description: "Redação de manifesto e posicionamento para startup de impacto social.",
-    image: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=800&q=80",
+    description: "Falta mensagem",
+    image: project4,
   },
   {
     id: 5,
-    title: "Vídeo Institucional",
+    title: "Projeto 5",
     category: "video",
-    description: "Direção de vídeo institucional com abordagem cinematográfica e storytelling emocional.",
-    image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&q=80",
+    description: "O salto para alcançar o  lugar que deseja.",
+    image: project5,
   },
   {
     id: 6,
-    title: "Portfólio Artístico",
+    title: "Projeto 6",
     category: "photo",
-    description: "Série fotográfica autoral explorando luz natural e composição minimalista.",
-    image: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=800&q=80",
+    description: "O reflexo de sempre para o seu novo brilho.",
+    image: project6,
+  },
+  {
+    id: 7,
+    title: "Projeto 7",
+    category: "copy",
+    description:
+      "Na sua direção o melhor caminho. Encontre a maior potência para qualquer destino.",
+    image: project7,
+  },
+  {
+    id: 8,
+    title: "projeto 8",
+    category: "video",
+    description: "A inspiração do calor com você. Marque a sua beleza!",
+    image: project8,
+  },
+  {
+    id: 9,
+    title: "Projeto 9",
+    category: "photo",
+    description: "falta mensagem",
+    image: project9,
+  },
+  {
+    id: 10,
+    title: "Projeto 10",
+    category: "copy",
+    description:
+      "Maciez para qualquer momento. A leveza de sentir mais conforto com você",
+    image: project10,
+  },
+  {
+    id: 11,
+    title: "Projeto 11",
+    category: "video",
+    description:
+      "O cuidado de sempre. A limpeza que renova, a beleza do novo com você.",
+    image: project11,
+  },
+  {
+    id: 12,
+    title: "Projeto 12",
+    category: "photo",
+    description:
+      "Faça a sua moda com a arte que transforma. O novo estilo para reencontrar o melhor em você!",
+    image: project12,
   },
 ];
 
@@ -85,7 +145,8 @@ const Portfolio = () => {
             Projetos Selecionados
           </h2>
           <p className="font-inter text-muted-foreground text-lg">
-            Uma seleção de trabalhos que unem estratégia, criatividade e execução impecável.
+            Uma seleção de trabalhos que unem estratégia, criatividade e
+            execução impecável.
           </p>
         </div>
 

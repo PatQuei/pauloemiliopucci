@@ -1,33 +1,6 @@
-import { useState } from "react";
-import { Mail, Linkedin, Instagram, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
+import { Mail, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Mensagem enviada!",
-      description: "Obrigado pelo contato. Retornarei em breve.",
-    });
-    setFormData({ name: "", email: "", message: "" });
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
   return (
     <section id="contato" className="py-24 md:py-32 bg-gradient-subtle">
       <div className="container mx-auto px-6">
@@ -41,134 +14,101 @@ const Contact = () => {
               Vamos criar algo incrível juntos?
             </h2>
             <p className="font-inter text-muted-foreground text-lg max-w-2xl mx-auto">
-              Entre em contato para discutir projetos, parcerias ou apenas trocar ideias.
+              Entre em contato para discutir projetos, parcerias ou apenas
+              trocar ideias.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Contact Form */}
-            <div className="animate-fade-in-up">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-sm font-inter font-medium text-foreground mb-2"
-                  >
-                    Nome
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="font-inter"
-                    placeholder="Seu nome completo"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-sm font-inter font-medium text-foreground mb-2"
-                  >
-                    E-mail
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="font-inter"
-                    placeholder="seu@email.com"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-inter font-medium text-foreground mb-2"
-                  >
-                    Mensagem
-                  </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={6}
-                    className="font-inter resize-none"
-                    placeholder="Conte-me sobre seu projeto ou ideia..."
-                  />
-                </div>
-                <Button
-                  type="submit"
-                  className="w-full bg-accent hover:bg-accent/90 text-foreground font-inter font-medium"
-                >
-                  Enviar Mensagem
-                </Button>
-              </form>
-            </div>
-
+          <div className="max-w-3xl mx-auto">
             {/* Contact Info & Social */}
-            <div className="space-y-8 animate-fade-in-up" style={{ animationDelay: "150ms" }}>
+            <div className="space-y-8 animate-fade-in-up">
               <div className="space-y-6">
-                <h3 className="font-playfair text-2xl font-semibold text-foreground">
-                  Outras formas de contato
+                <h3 className="font-playfair text-2xl font-semibold text-foreground text-center">
+                  Entre em Contato
                 </h3>
-                
-                <div className="space-y-4">
+
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                   <a
                     href="mailto:paulo@exemplo.com"
-                    className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                    className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card border border-border hover:border-accent transition-all hover:shadow-lg group"
                   >
-                    <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                      <Mail size={18} className="text-accent" />
+                    <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      <Mail size={24} className="text-accent" />
                     </div>
-                    <span className="font-inter">paulo@exemplo.com</span>
+                    <div className="text-center">
+                      <p className="font-inter font-medium text-foreground mb-1">
+                        E-mail
+                      </p>
+                      <p className="font-inter text-sm text-muted-foreground">
+                        paulo@exemplo.com
+                      </p>
+                    </div>
                   </a>
 
                   <a
-                    href="https://linkedin.com"
+                    href="https://wa.me/5511999999999"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                    className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card border border-border hover:border-accent transition-all hover:shadow-lg group"
                   >
-                    <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                      <Linkedin size={18} className="text-accent" />
+                    <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      <MessageCircle size={24} className="text-accent" />
                     </div>
-                    <span className="font-inter">LinkedIn</span>
+                    <div className="text-center">
+                      <p className="font-inter font-medium text-foreground mb-1">
+                        WhatsApp
+                      </p>
+                      <p className="font-inter text-sm text-muted-foreground">
+                        (11) 99999-9999
+                      </p>
+                    </div>
                   </a>
 
                   <a
-                    href="https://instagram.com"
+                    href="https://www.linkedin.com/in/paulo-emilio-pucci-b2863b52/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                    className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card border border-border hover:border-accent transition-all hover:shadow-lg group"
                   >
-                    <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                      <Instagram size={18} className="text-accent" />
+                    <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      <Linkedin size={24} className="text-accent" />
                     </div>
-                    <span className="font-inter">Instagram</span>
+                    <div className="text-center">
+                      <p className="font-inter font-medium text-foreground mb-1">
+                        LinkedIn
+                      </p>
+                      <p className="font-inter text-sm text-muted-foreground">
+                        Conecte-se
+                      </p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/pauloemiliopucci/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card border border-border hover:border-accent transition-all hover:shadow-lg group"
+                  >
+                    <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      <Instagram size={24} className="text-accent" />
+                    </div>
+                    <div className="text-center">
+                      <p className="font-inter font-medium text-foreground mb-1">
+                        Instagram
+                      </p>
+                      <p className="font-inter text-sm text-muted-foreground">
+                        @pauloemiliopucci
+                      </p>
+                    </div>
                   </a>
                 </div>
-              </div>
-
-              <div className="pt-6 border-t border-border">
-                <Button
-                  variant="outline"
-                  className="w-full font-inter font-medium border-accent text-accent hover:bg-accent hover:text-foreground"
-                >
-                  <Download className="mr-2" size={18} />
-                  Download Portfólio (PDF)
-                </Button>
               </div>
 
               <div className="p-6 rounded-lg bg-card border border-border">
-                <p className="font-inter text-sm text-muted-foreground leading-relaxed">
-                  💡 <span className="font-medium text-foreground">Dica:</span> Para projetos urgentes ou
-                  consultorias personalizadas, prefira o contato direto via e-mail ou LinkedIn.
+                <p className="font-inter text-sm text-muted-foreground leading-relaxed text-center">
+                  💡 <span className="font-medium text-foreground">Dica:</span>{" "}
+                  Para projetos urgentes ou consultorias personalizadas, prefira
+                  o contato direto via WhatsApp ou e-mail.
                 </p>
               </div>
             </div>

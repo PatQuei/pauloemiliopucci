@@ -59,12 +59,6 @@ const Navigation = () => {
             >
               Projetos
             </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-sm font-inter font-medium hover:text-accent transition-colors"
-            >
-              Depoimentos
-            </button>
             <Button
               onClick={() => scrollToSection("contato")}
               className="bg-accent hover:bg-accent/90 text-foreground font-inter font-medium"
@@ -84,7 +78,7 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in">
+          <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in bg-background/98 backdrop-blur-md rounded-lg p-4 shadow-lg border border-border/50">
             <button
               onClick={() => scrollToSection("sobre")}
               className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
@@ -102,12 +96,6 @@ const Navigation = () => {
               className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
             >
               Projetos
-            </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
-            >
-              Depoimentos
             </button>
             <Button
               onClick={() => scrollToSection("contato")}
