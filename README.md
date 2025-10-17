@@ -2,17 +2,11 @@
 
 > _"Transformo ideias em histórias com palavras, imagens e som."_## Project info
 
-## 📖 Sobre o Projeto**URL**: https://lovable.dev/projects/146f7a4f-ef90-4986-917b-a70329bbef63
+## 📖 Sobre o Projeto
 
 Bem-vindo ao portfólio digital de **Paulo Emílio Pucci**, um espaço onde copywriting estratégico, storytelling envolvente e produção audiovisual se encontram para criar experiências memoráveis.## How can I edit this code?
 
 Este site é mais do que um simples portfolio — é uma narrativa visual que reflete a essência do trabalho de Paulo: **autenticidade, criatividade e impacto**.There are several ways of editing your application.
-
----**Use Lovable**
-
-## 🏗️ Construção do ProjetoSimply visit the [Lovable Project](https://lovable.dev/projects/146f7a4f-ef90-4986-917b-a70329bbef63) and start prompting.
-
-### Estrutura BaseChanges made via Lovable will be committed automatically to this repo.
 
 A estrutura inicial deste projeto foi gerada através do [**Lovable**](https://lovable.dev), uma plataforma que acelera o desenvolvimento de aplicações web modernas com React e TypeScript.
 
@@ -181,7 +175,7 @@ Para mais informações sobre o projeto ou sobre Paulo Emílio Pucci:
 
 ## 📄 Licença
 
-Este projeto é de propriedade de Paulo Emílio Pucci. Todos os direitos reservados.
+Este projeto foi feito para Paulo Emílio Pucci. Todos os direitos reservados.
 
 ---
 
