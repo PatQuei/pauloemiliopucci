@@ -34,7 +34,10 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("hero")}
-            className="font-playfair text-2xl font-bold tracking-tight hover:text-accent transition-colors"
+            className={`font-playfair text-2xl font-bold tracking-tight hover:text-accent transition-colors ${
+              isScrolled ? "text-foreground" : ""
+            }`}
+            style={!isScrolled ? { color: "#BCBAC7" } : {}}
           >
             Paulo Emilio Pucci
           </button>
@@ -43,19 +46,28 @@ const Navigation = () => {
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-sm font-inter font-medium hover:text-accent transition-colors"
+              className={`text-sm font-inter font-medium hover:text-accent transition-colors ${
+                isScrolled ? "text-foreground" : ""
+              }`}
+              style={!isScrolled ? { color: "#BCBAC7" } : {}}
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("portfolio")}
-              className="text-sm font-inter font-medium hover:text-accent transition-colors"
+              className={`text-sm font-inter font-medium hover:text-accent transition-colors ${
+                isScrolled ? "text-foreground" : ""
+              }`}
+              style={!isScrolled ? { color: "#BCBAC7" } : {}}
             >
               Portfólio
             </button>
             <button
               onClick={() => scrollToSection("projetos")}
-              className="text-sm font-inter font-medium hover:text-accent transition-colors"
+              className={`text-sm font-inter font-medium hover:text-accent transition-colors ${
+                isScrolled ? "text-foreground" : ""
+              }`}
+              style={!isScrolled ? { color: "#BCBAC7" } : {}}
             >
               Projetos
             </button>
@@ -69,7 +81,10 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-foreground"
+            className={`md:hidden transition-colors ${
+              isScrolled ? "text-foreground" : ""
+            }`}
+            style={!isScrolled ? { color: "#BCBAC7" } : {}}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -81,19 +96,22 @@ const Navigation = () => {
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in bg-background/98 backdrop-blur-md rounded-lg p-4 shadow-lg border border-border/50">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
+              style={{ color: "#BCBAC7" }}
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("portfolio")}
-              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
+              style={{ color: "#BCBAC7" }}
             >
               Portfólio
             </button>
             <button
               onClick={() => scrollToSection("projetos")}
-              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium hover:text-accent transition-colors"
+              style={{ color: "#BCBAC7" }}
             >
               Projetos
             </button>
