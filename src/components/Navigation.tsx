@@ -81,19 +81,19 @@ const Navigation = () => {
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in bg-background/98 backdrop-blur-md rounded-lg p-4 shadow-lg border border-border/50">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-left py-2 text-sm font-inter font-medium text-foreground/90 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("portfolio")}
-              className="text-left py-2 text-sm font-inter font-medium text-foreground/90 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
             >
               Portfólio
             </button>
             <button
               onClick={() => scrollToSection("projetos")}
-              className="text-left py-2 text-sm font-inter font-medium text-foreground/90 hover:text-accent transition-colors"
+              className="text-left py-2 text-sm font-inter font-medium text-gray-300 hover:text-accent transition-colors"
             >
               Projetos
             </button>
