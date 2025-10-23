@@ -56,47 +56,54 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 95%;
+    /* Preto profundo para background principal */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 95%;
+    /* Cinza grafite para cards */
+    --card: 200 8% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 200 8% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 95%;
-    --primary-foreground: 0 0% 10%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 5%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 95%;
+    /* Azul petróleo para secondary */
+    --secondary: 195 25% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 200 8% 18%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 32 45% 65%;
-    --accent-foreground: 0 0% 10%;
+    /* Dourado/Âmbar para accent */
+    --accent: 38 70% 55%;
+    --accent-foreground: 0 0% 5%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 95%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 32 45% 65%;
+    --border: 200 8% 22%;
+    --input: 200 8% 22%;
+    --ring: 38 70% 55%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 5%) 0%, hsl(0 0% 12%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 8%) 0%, hsl(0 0% 10%) 100%);
-    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.3);
-    --shadow-hover: 0 20px 60px -15px hsl(0 0% 0% / 0.4);
+    /* Gradientes cinematográficos */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 3%) 0%, hsl(195 25% 8%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 5%) 0%, hsl(200 10% 8%) 100%);
+    --gradient-teal: linear-gradient(135deg, hsl(195 30% 10%) 0%, hsl(200 20% 15%) 100%);
+    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.6);
+    --shadow-hover: 0 20px 60px -15px hsl(38 70% 30% / 0.3);
+    --shadow-gold: 0 0 30px hsl(38 70% 55% / 0.2);
 
-    --sidebar-background: 0 0% 8%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 0 0% 95%;
-    --sidebar-primary-foreground: 0 0% 10%;
-    --sidebar-accent: 0 0% 15%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 32 45% 65%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 200 8% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 200 8% 22%;
+    --sidebar-ring: 38 70% 55%;
   }
 }
 
@@ -123,7 +130,19 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-hover);
   }
 
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
   .transition-smooth {
     transition: var(--transition-smooth);
+  }
+
+  .bg-gradient-teal {
+    background: var(--gradient-teal);
+  }
+
+  .text-gold {
+    color: hsl(38 70% 55%);
   }
 }
