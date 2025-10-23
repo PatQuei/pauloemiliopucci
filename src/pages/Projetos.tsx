@@ -98,35 +98,6 @@ const Projetos = () => {
             </div>
 
             {/* Informações adicionais */}
-            <div
-              className="mt-16 grid md:grid-cols-3 gap-6 animate-fade-in-up"
-              style={{ animationDelay: "200ms" }}
-            >
-              <div className="text-center p-6 bg-card border border-border rounded-lg">
-                <h3 className="font-playfair text-2xl font-bold text-accent mb-2">
-                  20+
-                </h3>
-                <p className="font-inter text-sm text-muted-foreground">
-                  Anos de Experiência
-                </p>
-              </div>
-              <div className="text-center p-6 bg-card border border-border rounded-lg">
-                <h3 className="font-playfair text-2xl font-bold text-accent mb-2">
-                  100+
-                </h3>
-                <p className="font-inter text-sm text-muted-foreground">
-                  Projetos Realizados
-                </p>
-              </div>
-              <div className="text-center p-6 bg-card border border-border rounded-lg">
-                <h3 className="font-playfair text-2xl font-bold text-accent mb-2">
-                  ∞
-                </h3>
-                <p className="font-inter text-sm text-muted-foreground">
-                  Histórias Contadas
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

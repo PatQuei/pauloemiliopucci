@@ -147,12 +147,7 @@ const Sobre = () => {
               <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground mb-4">
                 Habilidades em Ação
               </h2>
-              <p className="font-inter text-md md:text-lg text-muted-foreground max-w-3xl mx-auto">
-                Coisas que faço com gosto — pequenas práticas e grandes
-                obsessões que aparecem em cada projeto: da escrita ao
-                enquadramento, do roteiro à gestão cuidadosa de equipes. Abaixo,
-                um recorte mais humano do meu dia a dia profissional.
-              </p>
+              <p className="font-inter text-md md:text-lg text-muted-foreground max-w-3xl mx-auto"></p>
             </div>
 
             <div className="mt-6">

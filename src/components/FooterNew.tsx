@@ -15,7 +15,7 @@ const FooterNew = () => {
             </h3>
             <p className="font-inter text-sm text-muted-foreground leading-relaxed">
               Redator e Direção Criativa com 20 anos de experiência
-              transformando ideias em histórias memoráveis.
+              transformando ideias em histórias.
             </p>
             <div className="w-16 h-1 bg-accent shadow-gold" />
           </div>

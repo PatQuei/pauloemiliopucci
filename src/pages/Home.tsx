@@ -41,7 +41,7 @@ const Home = () => {
             </div>
 
             {/* Frase principal */}
-            <p className="font-inter text-2xl md:text-3xl lg:text-4xl font-bold text-white/90 max-w-4xl mx-auto leading-relaxed pt-6">
+            <p className="font-inter text-2xl md:text-2xl lg:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed pt-6">
               Transformo ideias em histórias.
               <br />
               <span className="text-accent">

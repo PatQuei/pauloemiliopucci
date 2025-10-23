@@ -105,12 +105,8 @@ const Portfolio = ({ initialSection = 1 }: { initialSection?: number }) => {
       <section id="portfolio-1" className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto mb-8">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground">
-              Parte 1 — Curadoria
-            </h2>
-            <p className="font-inter text-muted-foreground mt-2">
-              Trabalhos selecionados que mostram estratégia e cuidado estético.
-            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground"></h2>
+            <p className="font-inter text-muted-foreground mt-2"></p>
           </div>
           {renderGallery(section1)}
         </div>
@@ -119,12 +115,8 @@ const Portfolio = ({ initialSection = 1 }: { initialSection?: number }) => {
       <section id="portfolio-2" className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto mb-8">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground">
-              Parte 2 — Continuação
-            </h2>
-            <p className="font-inter text-muted-foreground mt-2">
-              Aprofundamento de narrativas visuais e textuais.
-            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground"></h2>
+            <p className="font-inter text-muted-foreground mt-2"></p>
           </div>
           {renderGallery(section2)}
         </div>
@@ -133,12 +125,8 @@ const Portfolio = ({ initialSection = 1 }: { initialSection?: number }) => {
       <section id="portfolio-3" className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto mb-8">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground">
-              Parte 3 — Recentes
-            </h2>
-            <p className="font-inter text-muted-foreground mt-2">
-              Projetos recentes que mostram amplitude e evolução.
-            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground"></h2>
+            <p className="font-inter text-muted-foreground mt-2"></p>
           </div>
           {renderGallery(section3)}
         </div>
