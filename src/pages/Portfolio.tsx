@@ -92,12 +92,10 @@ const Portfolio = ({ initialSection = 1 }: { initialSection?: number }) => {
               Portfólio
             </p>
             <h1 className="font-playfair text-5xl md:text-6xl font-bold text-foreground">
-              Seleção de Projetos
+              Projetos
             </h1>
             <div className="w-24 h-1 bg-accent mx-auto shadow-gold" />
-            <p className="font-inter text-lg text-muted-foreground pt-4">
-              Uma jornada em três atos — escolha uma seção ou percorra tudo.
-            </p>
+            <p className="font-inter text-lg text-muted-foreground pt-4"></p>
           </div>
         </div>
       </section>

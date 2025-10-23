@@ -31,7 +31,7 @@ const FooterNew = () => {
                 { path: "/sobre", label: "Sobre" },
                 { path: "/habilidades", label: "Habilidades" },
                 { path: "/portfolio-1", label: "Portfólio" },
-                { path: "/projetos", label: "Projetos" },
+                { path: "/projetos", label: "Outros Projetos" },
                 { path: "/contato", label: "Contato" },
               ].map((link) => (
                 <Link
