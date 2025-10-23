@@ -124,11 +124,8 @@ const Contato = () => {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full blur-2xl" />
                   <blockquote className="relative z-10 space-y-4">
                     <p className="font-playfair text-xl md:text-2xl text-foreground italic leading-relaxed">
-                      "Busco construir e compartilhar novos caminhos para criar{" "}
-                      <span className="text-accent">
-                        melhores possibilidades.
-                      </span>
-                      "
+                      "Construo e compartilho novos caminhos para criar{" "}
+                      <span className="text-accent">melhores destinos.</span>"
                     </p>
                     <div className="flex items-center gap-3">
                       <div className="w-12 h-0.5 bg-accent shadow-gold" />

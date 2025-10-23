@@ -3,7 +3,7 @@ import { X, ZoomIn } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
 
-import project2 from "@/assets/projeto2.jpg";
+import project2 from "@/assets/projeto2.png";
 import project3 from "@/assets/projeto3.png";
 import project5 from "@/assets/projeto5.png";
 import project6 from "@/assets/projeto6.jpg";
