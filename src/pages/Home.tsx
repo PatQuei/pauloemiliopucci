@@ -42,7 +42,7 @@ const Home = () => {
 
             {/* Frase principal */}
             <p className="font-inter text-2xl md:text-2xl lg:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed pt-6">
-              Transformo ideias em histórias.
+              Da ideia à execução: Crio histórias que conectam e entregam resultado.
               <br />
               <span className="text-accent">
                 {/*com palavras, imagens e som.*/}
