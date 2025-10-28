@@ -98,7 +98,7 @@ const FooterNew = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-inter text-sm text-muted-foreground flex items-center gap-2">
-            © {currentYear} Paulo Emílio Pucci. Todos os direitos reservados.
+            © {currentYear} Paulo Emilio Pucci. Todos os direitos reservados.
           </p>
           <p className="font-inter text-sm text-muted-foreground flex items-center gap-2">
             Feito com <Heart size={14} className="text-accent fill-accent" /> e
