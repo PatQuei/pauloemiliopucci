@@ -65,7 +65,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/paulo-emilio-pucci-b2863b52/"
+                    href="https://www.linkedin.com/in/pauloemiliopucci/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card border border-border hover:border-accent transition-all hover:shadow-lg group"

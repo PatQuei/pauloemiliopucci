@@ -65,7 +65,7 @@ const FooterNew = () => {
             </div>
             <div className="flex gap-3 pt-2">
               <a
-                href="https://www.linkedin.com/in/paulo-emilio-pucci-b2863b52/"
+                href="https://www.linkedin.com/in/pauloemiliopucci/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-muted hover:bg-accent/20 border border-border hover:border-accent flex items-center justify-center transition-all duration-300 hover:scale-110 group"

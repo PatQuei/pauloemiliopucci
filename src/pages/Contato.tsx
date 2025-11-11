@@ -100,7 +100,7 @@ const Contato = () => {
                     </h3>
                     <div className="flex gap-4">
                       <a
-                        href="https://www.linkedin.com/in/paulo-emilio-pucci-b2863b52/"
+                        href="https://www.linkedin.com/in/pauloemiliopucci/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-12 h-12 rounded-full bg-card border border-border hover:border-accent flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-elegant"
@@ -130,7 +130,7 @@ const Contato = () => {
                     <div className="flex items-center gap-3">
                       <div className="w-12 h-0.5 bg-accent shadow-gold" />
                       <p className="font-inter text-sm text-muted-foreground font-medium">
-                        Paulo Emílio Pucci
+                        Paulo Emilio Pucci
                       </p>
                     </div>
                   </blockquote>
