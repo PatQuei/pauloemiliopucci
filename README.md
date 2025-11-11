@@ -167,8 +167,8 @@ src/
 
 Para mais informações sobre o projeto ou sobre Paulo Emílio Pucci:
 
-- 📧 **Email**: paulo@exemplo.com
-- 💼 **LinkedIn**: [Paulo Emílio Pucci](https://www.linkedin.com/in/paulo-emilio-pucci-b2863b52/)
+- 📧 **Email**: paulopucci@gmail.com
+- 💼 **LinkedIn**: [Paulo Emílio Pucci](https://www.linkedin.com/in/pauloemiliopucci/)
 - 📸 **Instagram**: [@pauloemiliopucci](https://www.instagram.com/pauloemiliopucci/)
 
 ---
