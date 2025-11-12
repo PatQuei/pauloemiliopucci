@@ -49,7 +49,7 @@ const Sobre = () => {
                 <div className="relative rounded-lg overflow-hidden shadow-elegant">
                   <img
                     src={aboutPhoto}
-                    alt="Paulo Emílio Pucci"
+                    alt="Paulo Emilio Pucci"
                     className="w-full object-cover aspect-[4/5] transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Overlay sutil */}

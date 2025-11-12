@@ -40,7 +40,7 @@ const Contato = () => {
                   <div className="relative rounded-lg overflow-hidden shadow-elegant">
                     <img
                       src={contatoImage}
-                      alt="Paulo Emílio Pucci - Contato"
+                      alt="Paulo Emilio Pucci - Contato"
                       className="w-full object-cover aspect-[4/5] grayscale group-hover:grayscale-0 transition-all duration-700"
                     />
                     {/* Overlay com gradiente */}

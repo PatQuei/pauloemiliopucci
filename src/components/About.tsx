@@ -11,7 +11,7 @@ const About = () => {
               <div className="absolute -inset-4 bg-accent/20 rounded-lg blur-2xl" />
               <img
                 src={aboutPhoto}
-                alt="Paulo Emílio Pucci"
+                alt="Paulo Emilio Pucci"
                 className="relative rounded-lg shadow-elegant w-full object-cover aspect-square"
               />
             </div>

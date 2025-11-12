@@ -1,10 +1,10 @@
-# 🎬 Paulo Emílio Pucci - Portfolio# Welcome to your Lovable project
+# 🎬 Paulo Emilio Pucci - Portfolio# Welcome to your Lovable project
 
 > _"Transformo ideias em histórias com palavras, imagens e som."_## Project info
 
 ## 📖 Sobre o Projeto
 
-Bem-vindo ao portfólio digital de **Paulo Emílio Pucci**, um espaço onde copywriting estratégico, storytelling envolvente e produção audiovisual se encontram para criar experiências memoráveis.## How can I edit this code?
+Bem-vindo ao portfólio digital de **Paulo Emilio Pucci**, um espaço onde copywriting estratégico, storytelling envolvente e produção audiovisual se encontram para criar experiências memoráveis.## How can I edit this code?
 
 Este site é mais do que um simples portfolio — é uma narrativa visual que reflete a essência do trabalho de Paulo: **autenticidade, criatividade e impacto**.There are several ways of editing your application.
 
@@ -14,7 +14,7 @@ A estrutura inicial deste projeto foi gerada através do [**Lovable**](https://l
 
 ### Personalização Artesanal
 
-Todo o conteúdo, design customizado, componentes personalizados e a experiência do usuário foram **cuidadosamente elaborados e implementados** por mim, garantindo que cada detalhe refletisse a identidade profissional de Paulo Emílio Pucci.If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Todo o conteúdo, design customizado, componentes personalizados e a experiência do usuário foram **cuidadosamente elaborados e implementados** por mim, garantindo que cada detalhe refletisse a identidade profissional de Paulo Emilio Pucci.If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
 **O que foi personalizado:**The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -165,17 +165,17 @@ src/
 
 ## 📬 Contato
 
-Para mais informações sobre o projeto ou sobre Paulo Emílio Pucci:
+Para mais informações sobre o projeto ou sobre Paulo Emilio Pucci:
 
 - 📧 **Email**: paulopucci@gmail.com
-- 💼 **LinkedIn**: [Paulo Emílio Pucci](https://www.linkedin.com/in/pauloemiliopucci/)
+- 💼 **LinkedIn**: [Paulo Emilio Pucci](https://www.linkedin.com/in/pauloemiliopucci/)
 - 📸 **Instagram**: [@pauloemiliopucci](https://www.instagram.com/pauloemiliopucci/)
 
 ---
 
 ## 📄 Licença
 
-Este projeto foi feito para Paulo Emílio Pucci. Todos os direitos reservados.
+Este projeto foi feito para Paulo Emilio Pucci. Todos os direitos reservados.
 
 ---
 

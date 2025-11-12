@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="font-playfair text-2xl font-bold mb-2">
-              Paulo Emílio Pucci
+              Paulo Emilio Pucci
             </p>
             <p className="font-inter text-sm text-background/70">
               Copywriting, Storytelling & Audiovisual

@@ -94,7 +94,7 @@ const Values = () => {
               ."
             </p>
             <p className="font-inter text-sm text-muted-foreground mt-4 tracking-wider">
-              — PAULO EMÍLIO PUCCI
+              — PAULO EMILIO PUCCI
             </p>
           </div>
         </div>
